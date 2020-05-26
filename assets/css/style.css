@@ -5,7 +5,7 @@ body {
 }
 
 /* styling for the header */
-nav {
+div.navnav {
   position: sticky;
   top: 0;
   background-color: #555555;
@@ -26,7 +26,7 @@ section {
   text-align: center;
   margin: 0 auto;
 }
-
+ 
 #photos {
   font-family: "Dancing Script", cursive;
   color: #ececec;

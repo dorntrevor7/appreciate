@@ -93,4 +93,7 @@ section {
     font-size: 30px;
     text-shadow: 4px 4px 6px white;
   }
+  .navlink {
+    text-align: center;
+  }
 }

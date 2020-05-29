@@ -68,6 +68,24 @@ a.letter {
   margin-top: 20px;
   font-weight: bold;
 }
+#letter{
+    font-size: large;
+    font-family: "Dancing Script", cursive;
+    text-align: left;
+    border: 2px solid maroon;
+    border-radius: 10px;
+    width: 75%;
+    background-color: rgb(255, 233, 204);
+    margin-bottom: 20px;
+}
+.letterformat{
+    margin: 10px;
+}
+.indent{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-indent: 40px;
+}
 
 @media only screen and (max-width: 778px) {
   a.photos {

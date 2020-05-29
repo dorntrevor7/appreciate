@@ -95,9 +95,11 @@ a.letter {
     text-shadow: 4px 4px 6px white;
   }
   .height500{
-      height: 700px;
+    height: 600px;
   }
-
+  .indent-sm{
+    text-align: center;
+  }
   #home {
     font-size: 40px;
     width: 100%;

@@ -87,6 +87,11 @@ a.letter {
   margin-right: 10px;
   text-indent: 40px;
 }
+.indent2{
+  margin-left: 5px;
+  margin-right: 5px;
+  text-indent: 20px;
+}
 
 @media only screen and (max-width: 778px) {
   body{

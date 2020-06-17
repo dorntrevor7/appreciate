@@ -14,7 +14,7 @@ nav.navnav {
   padding-top: 10px;
   padding-bottom: 10px;
   margin-bottom: 0px;
-  border-bottom: solid 2px maroon;
+  border-bottom: solid 2px pink;
 }
 
 div.cardright {
@@ -38,7 +38,7 @@ a.photos {
 #home {
   font-family: "Fredericka the Great", cursive;
   color: white;
-  text-shadow: 4px 4px 6px maroon;
+  text-shadow: 4px 4px 6px pink;
   font-size: 45px;
   padding: 0px;
 }
@@ -59,35 +59,39 @@ a.letter {
   color: lightslategray;
   text-align: center;
   border-top-style: solid;
-  border-color: maroon;
+  border-color: pink;
   background-color: whitesmoke;
   height: 40px;
 }
+
 
 .cText {
   margin-top: 20px;
   font-weight: bold;
 }
 #letter{
-    font-size: large;
-    font-family: "Dancing Script", cursive;
-    text-align: left;
-    border: 2px solid maroon;
-    border-radius: 10px;
-    width: 75%;
-    background-color: rgb(255, 233, 204);
-    margin-bottom: 20px;
+  font-size: large;
+  font-family: "Dancing Script", cursive;
+  text-align: left;
+  border: 2px solid pink;
+  border-radius: 10px;
+  width: 75%;
+  background-color: rgb(255, 233, 204);
+  margin-bottom: 20px;
 }
 .letterformat{
-    margin: 10px;
+  margin: 10px;
 }
 .indent{
-    margin-left: 10px;
-    margin-right: 10px;
-    text-indent: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-indent: 40px;
 }
 
 @media only screen and (max-width: 778px) {
+  body{
+    background-image: url(https://images.pexels.com/photos/160846/french-bulldog-summer-smile-joy-160846.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=400);
+  }
   a.photos {
     font-family: "Dancing Script", cursive;
     color: #ececec;
@@ -105,10 +109,10 @@ a.letter {
     width: 100%;
     font-family: "Fredericka the Great", cursive;
     color: white;
-    text-shadow: 4px 4px 6px maroon;
+    text-shadow: 4px 4px 6px pink;
     padding: 0px;
   }
-
+  
   a.letter {
     font-family: "Dancing Script", cursive;
     color: #ececec;
@@ -117,5 +121,9 @@ a.letter {
   }
   .navlink {
     text-align: center;
+  }
+  .canes{
+    font-style: normal;
+    font-weight: bold;
   }
 }
